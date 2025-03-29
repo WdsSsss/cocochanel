@@ -57,16 +57,4 @@ function delay(time, length) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-    var classlist = eye.classList;
-    if (classlist.contains("eye_close")){
-        classlist.remove("eye_close");
-        var dots = "";
-        for (var i = 0; i < input.value.length - 1; i++){
-            dots = dots + dot
-        }
-        input.value = dots;
-    }else{
-        classlist.add("eye_close");
-        input.value = original;
-    }
-})
+   
