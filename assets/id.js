@@ -57,4 +57,3 @@ function delay(time, length) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-   
