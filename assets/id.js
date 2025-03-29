@@ -57,7 +57,6 @@ function delay(time, length) {
     return new Promise(resolve => setTimeout(resolve, time));
 }
 
-eye.addEventListener('click', () => {
     var classlist = eye.classList;
     if (classlist.contains("eye_close")){
         classlist.remove("eye_close");
